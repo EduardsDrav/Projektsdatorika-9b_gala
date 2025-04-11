@@ -1,52 +1,28 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Pierakstīšanās</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-  
-  <style>
-  body {
-  background-color: #db0827;
-  }
-    
-  h1 {
-  color: #fbfbfb;
-  }
-
-  h6 {
-    color: #fbfbfb;
-  }
-    
-  .all-browsers {
-    margin: 0;
-    padding: 5px;
-    background-color: #ECDCBF
-    }
-  
-  
-    
-  </style>
-  
 <body>
-  
-  <br><br><br><h1 style="text-align:center;">PIERAKSTĪŠANĀS</h1>
-  <font-size: 48px;></font-size:>
-  <form action="/action_page.php">
-    <h6 style="text-align:center;
-    <label for="fname">E-PASTS</label><br>
-    <input type="text" id="fname" name="fname"><br><br>
-    <label for="lname">PAROLE</label><br>
-    <input type="text" id="lname" name="lname"><br><br>
-    <input type="submit" value="IESNIEGT">
-  </form>
-
-  
-  
+  <div class="login-container">
+    <h1>PIERAKSTĪŠANĀS</h1>
+    <div class="form-box">
+      <form action="/action_page.php">
+        <div class="input-group">
+          <label for="email">E-PASTS</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="input-group">
+          <label for="password">PAROLE</label>
+          <input type="password" id="password" name="password">
+        </div>
+        <button type="submit">IESNIEGT</button>
+      </form>
+    </div>
+  </div>
   <script src="script.js"></script>
 </body>
-
 </html>
