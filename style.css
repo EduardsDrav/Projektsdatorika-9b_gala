@@ -4,59 +4,71 @@ body {
   padding: 0;
   min-height: 100vh;
   background-color: #db0827;
-  font-family: Arial, sans-serif;
+  font-family: Murecho, sans-serif;
 }
 
-.login-container {
+.pierakstisanas-kaste {
   padding: 40px 20px;
   text-align: center;
+
 }
 
 h1 {
   color: white;
-  margin-bottom: 40px;
-  font-size: 32px;
+  margin-bottom: 65px;
+  font-size: 48px;
 }
 
-.form-box {
+.kaste {
   background-color: #ECDCBF;
-  max-width: 500px;
+  max-width: 1160px;
+  max-height: 600px;
   margin: 0 auto;
   padding: 30px;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 
 .input-group {
-  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  margin-right: 65px;
+  margin-left: 65px;
   text-align: left;
 }
 
 label {
   display: block;
   margin-bottom: 8px;
-  color: #333;
-  font-weight: bold;
+  color: #A31D1D;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 input {
   width: 100%;
   padding: 8px;
   box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid black;
+  border-radius: 0px;
 }
 
 button {
   background-color: #db0827;
   color: white;
-  border: none;
-  padding: 10px 30px;
+  border: solid 1px black;
+  padding: 12px 60px;
   cursor: pointer;
-  font-weight: bold;
-  border-radius: 4px;
-  margin-top: 10px;
+  font-weight: 700;
+  border-radius: 0px;
+  margin-top: 65px;
 }
 
 button:hover {
   background-color: #c20723;
+}
+
+footer {
+  background-color: #ECDCBF;
+
+  
 }
