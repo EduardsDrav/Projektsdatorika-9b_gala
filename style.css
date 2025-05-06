@@ -1,15 +1,14 @@
 
 body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
+  min-height: 1045px;
   background-color: #db0827;
-  font-family: Murecho, sans-serif;
+  font-family: sans-serif;
 }
 
-.pierakstisanas-kaste {
+.register-lapa {
   padding: 40px 20px;
   text-align: center;
+  margin-top: 60px;
 
 }
 
@@ -22,10 +21,9 @@ h1 {
 .kaste {
   background-color: #ECDCBF;
   max-width: 1160px;
-  max-height: 600px;
-  margin: 0 auto;
+  max-height: 700px;
   padding: 30px;
-  border-radius: 0px;
+  margin: auto;
 }
 
 .input-group {
@@ -49,7 +47,6 @@ input {
   padding: 8px;
   box-sizing: border-box;
   border: 1px solid black;
-  border-radius: 0px;
 }
 
 button {
@@ -57,18 +54,58 @@ button {
   color: white;
   border: solid 1px black;
   padding: 12px 60px;
-  cursor: pointer;
   font-weight: 700;
-  border-radius: 0px;
-  margin-top: 65px;
-}
-
-button:hover {
-  background-color: #c20723;
+  margin-top: 90px;
+  margin-bottom: 50px
+  
 }
 
 footer {
   background-color: #ECDCBF;
-
-  
+  width: 100%;
+  height: 100px;
+  margin-top: 80px;
 }
+
+
+
+
+
+
+
+
+
+
+header {
+  background-color: #ECDCBF;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 80px;
+}
+
+p1 {
+  word-spacing: 20px;
+
+}
+    
+h1 {
+  color: white;
+  margin-bottom: 65px;
+  font-size: 48px;
+  text-align: center;
+}
+
+main-lapa {
+  padding: 40px 20px;
+  margin-top: 60px
+  ;
+}
+
+sakums-kaste-labi {
+  background-color: #ECDCBF;
+  max-width: 1160px;
+  max-height: 700px;
+  padding: 30px;
+  margin: auto;
+}
+

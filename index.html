@@ -7,10 +7,14 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <div class="pierakstisanas-kaste">
+  
+  <div style="text-align: center; margin-top: 10px">
+    <img src="kebab-street-logo.png" alt="Kebab Street Logo" height="71">
+  </div>
+  
+  <div class="register-lapa">
     <h1>PIERAKSTĪŠANĀS</h1>
     <div class="kaste">
-      <form action="/action_page.php">
         <div class="input-group">
           <label for="email">E-PASTS</label>
           <input type="email" id="email" name="email">
@@ -20,12 +24,16 @@
           <label for="password">PAROLE</label>
           <input type="password" id="password" name="password">
         </div>
-        <button type="submit">IESNIEGT</button>
-      </form>
+      <button type="submit" onclick="window.location.href='sakums.html'">IESNIEGT</button>
     </div>
   </div>
+  <div class="footer">
+    <footer>
+      <p> </p>
+    </footer>
+  </div>
+  
   <script src="script.js"></script>
 
-  <img src="attached_assets/kebab_street_logo.png" alt="Kebab Street Logo">
 </body>
 </html>
