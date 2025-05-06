@@ -83,9 +83,32 @@ header {
   margin-bottom: 80px;
 }
 
-p1 {
-  word-spacing: 20px;
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
 
+nav {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #A31D1D;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
     
 h1 {
