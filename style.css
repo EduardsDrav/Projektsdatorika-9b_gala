@@ -83,34 +83,26 @@ header {
   margin-bottom: 80px;
 }
 
-.nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
+.navigacija {
+  max-width: 100%;
   display: flex;
   align-items: center;
   padding: 15px;
+  justify-content: center;
 }
 
 nav {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 nav a {
   color: #A31D1D;
-  text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
+  padding: 20px;
 }
 
-nav a.active {
-  text-decoration: underline;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-    
 h1 {
   color: white;
   margin-bottom: 65px;
@@ -120,8 +112,7 @@ h1 {
 
 main-lapa {
   padding: 40px 20px;
-  margin-top: 60px
-  ;
+  margin-top: 60px;
 }
 
 sakums-kaste-labi {
