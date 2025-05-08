@@ -125,15 +125,13 @@ h1 {
 .sakums-kaste-labi {
   background-color: #ECDCBF;
   max-width: 1160px;
-  margin: 20px auto;
-  overflow: hidden;
+  margin: 40px auto;
 }
 
 .sakums-kaste-kreisi {
   background-color: #ECDCBF;
   max-width: 1160px;
-  margin: 20px auto;
-  overflow: hidden
+  margin: 40px auto;
 }
 
 .kaste-content {
@@ -169,3 +167,30 @@ h1 {
   font-weight: bold;
 }
 
+
+
+
+
+
+
+
+galerija-lapa {
+  padding: 40px 20px;
+  margin-top: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+galerija-kaste {
+  background-color: #ECDCBF;
+  max-width: 1160px;
+  margin: 40px auto;
+}
+
+galerija-image {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
