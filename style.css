@@ -105,6 +105,7 @@ nav a {
   font-weight: bold;
   font-size: 20px;
   padding: 10px;
+  text-decoration: none;
 }
 
 h1 {
@@ -118,7 +119,6 @@ h1 {
   padding: 40px 20px;
   margin-top: 60px;
   max-width: 1200px;
-  min-height: 3000px;
   margin: 0 auto;
 }
 
