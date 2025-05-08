@@ -174,23 +174,34 @@ h1 {
 
 
 
-galerija-lapa {
-  padding: 40px 20px;
-  margin-top: 60px;
+.galerija-container {
   max-width: 1200px;
-  margin: 0 auto;
-}
-
-galerija-kaste {
-  background-color: #ECDCBF;
-  max-width: 1160px;
   margin: 40px auto;
+  padding: 0 20px;
 }
 
-galerija-image {
+.galerija-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.galerija-item {
+  flex: 1;
+  max-width: 400px;
+}
+
+.empty-frame {
+  background-color: #ECDCBF;
   width: 100%;
-  height: auto;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px
+  padding-top: 75%;
+  position: relative;
+  border: 2px solid #A31D1D;
+}
+
+.galerija-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
